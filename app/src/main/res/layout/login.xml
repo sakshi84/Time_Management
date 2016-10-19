@@ -92,31 +92,26 @@
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/fb"
         android:id="@+id/imageView2"
-        android:layout_alignBottom="@+id/imageButton8"
-        android:layout_toLeftOf="@+id/button3"
-        android:layout_toStartOf="@+id/button3"
-        android:layout_marginRight="44dp"
-        android:layout_marginEnd="44dp" />
-
-    <ImageButton
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:srcCompat="@mipmap/gPlus"
-        android:layout_marginBottom="29dp"
-        android:id="@+id/imageButton8"
-        android:layout_marginLeft="21dp"
-        android:layout_marginStart="21dp"
-        android:layout_above="@+id/button3"
-        android:layout_toRightOf="@+id/imageView2"
-        android:layout_toEndOf="@+id/imageView2" />
+        android:layout_alignTop="@+id/imageButton8"
+        android:layout_toLeftOf="@+id/imageButton9"
+        android:layout_toStartOf="@+id/imageButton9" />
 
     <ImageButton
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:srcCompat="@mipmap/twitter"
-        android:layout_alignBottom="@+id/imageButton8"
-        android:layout_toRightOf="@+id/button3"
-        android:layout_toEndOf="@+id/button3"
-        android:id="@+id/imageButton9" />
+        android:id="@+id/imageButton9"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@mipmap/google"
+        android:layout_marginBottom="29dp"
+        android:id="@+id/imageButton8"
+        android:layout_above="@+id/button3"
+        android:layout_toRightOf="@+id/imageButton9"
+        android:layout_toEndOf="@+id/imageButton9" />
 
 </RelativeLayout>

@@ -7,25 +7,13 @@
     android:background="@color/grey"
     >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/linearLayout">
-
-    </LinearLayout>
-
     <ImageButton
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:srcCompat="@mipmap/right"
-        android:layout_below="@+id/linearLayout"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:id="@+id/imageButton" />
+        android:id="@+id/RightButton" />
 
     <ImageButton
         android:layout_width="50dp"
@@ -34,7 +22,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/imageButton2" />
+        android:id="@+id/LeftButton" />
 
     <TextView
         android:text="05/10/2016"
@@ -75,6 +63,6 @@
         app:srcCompat="@android:drawable/ic_input_add"
         android:id="@+id/imageButton3"
         android:layout_alignBottom="@+id/textView4"
-        android:layout_alignLeft="@+id/imageButton"
-        android:layout_alignStart="@+id/imageButton" />
+        android:layout_alignLeft="@+id/RightButton"
+        android:layout_alignStart="@+id/RightButton" />
 </RelativeLayout>

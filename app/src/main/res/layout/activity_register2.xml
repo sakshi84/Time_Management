@@ -7,18 +7,18 @@
     tools:context=".MainActivity"
     android:background="@drawable/header_img">
 
-    <TextView android:text="Login"
+    <TextView android:text="Register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textview"
-        android:textSize="35dp"
+        android:textSize="25sp"
         android:textColor="#ffffff"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical">
         <EditText
             android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:hint="Enter Name"
             android:focusable="true"
             android:textColorHint="@color/abc_tint_btn_checkable"
-            android:layout_marginTop="46dp"
+            android:layout_marginTop="15dp"
             android:textColorHighlight="@color/abc_tint_btn_checkable"
             android:textColor="@color/abc_tint_btn_checkable"
             android:text="Username"
@@ -46,16 +46,50 @@
             android:textColorHighlight="@color/abc_tint_btn_checkable"
             android:textColor="@color/abc_tint_btn_checkable" />
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:hint="Confirm Password"
+            android:drawableLeft="@mipmap/password"
+            android:textColorHint="@color/abc_tint_btn_checkable"
+            android:textColorHighlight="@color/abc_tint_btn_checkable"
+            android:textColor="@color/abc_tint_btn_checkable" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:text="Email Id"
+            android:drawableLeft="@mipmap/email"
+            android:textColor="@color/abc_tint_btn_checkable"
+            android:textColorHighlight="@color/abc_tint_btn_checkable"
+            android:textColorHint="@color/abc_tint_btn_checkable" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editText4"
+            android:text="Mobile"
+            android:drawableLeft="@mipmap/mobile5"
+            android:textColorHint="@color/abc_tint_btn_checkable"
+            android:textColor="@color/abc_tint_btn_checkable"
+            android:textColorHighlight="@color/abc_tint_btn_checkable" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="LOGIN"
-            android:onClick="login"
+            android:text="register"
             android:textColor="#ffffff"
             android:background="@drawable/round"
-            android:id="@+id/lg_button"
-            android:layout_marginTop="25dp"
+            android:id="@+id/rg_button"
+            android:layout_marginTop="10dp"
             android:textSize="@dimen/activity_horizontal_margin"    />
         <TextView
             android:text="OR"
@@ -63,12 +97,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:layout_marginLeft="135sp"
+            android:layout_marginLeft="160sp"
             android:layout_marginTop="5dp"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CONNECT WITH FACEBOOK"
+            android:text="connect with facebook"
             android:background="@drawable/fb_button"
             android:drawableLeft="@mipmap/fb"
 
@@ -76,25 +110,5 @@
             android:id="@+id/fb_button"
             android:textSize="@dimen/activity_horizontal_margin"
             android:layout_marginTop="5dp"/>
-
-        <TextView
-            android:text="New User?"
-            android:textColor="#ffffff"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:layout_marginLeft="110sp"
-            android:layout_marginTop="5dp"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Register"
-            android:onClick="register"
-            android:textColor="#ffffff"
-            android:background="@drawable/round"
-            android:id="@+id/rg_button1"
-            android:layout_marginTop="5dp"
-            android:textSize="@dimen/activity_horizontal_margin"    />
-
     </LinearLayout>
 </RelativeLayout>

@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
                         buttonClicked();
                     }
                 }
+
         );
     }
 
@@ -33,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    private void buttonClicked() {
-        Intent i = new Intent(getApplicationContext(), EventList.class);
+     void buttonClicked() {
+        Intent i = new Intent(getApplicationContext(), Login.class);
         startActivity(i);
     }
 

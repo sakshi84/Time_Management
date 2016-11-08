@@ -10,7 +10,7 @@
     <ImageButton
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:srcCompat="@mipmap/right"
+        android:src="@mipmap/right48"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:id="@+id/RightButton" />
@@ -18,7 +18,7 @@
     <ImageButton
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:srcCompat="@mipmap/left"
+        android:src="@mipmap/left48"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -58,12 +58,12 @@
         android:layout_centerHorizontal="true" />
 
     <ImageButton
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        app:srcCompat="@android:drawable/ic_input_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/add1"
         android:id="@+id/imageButton3"
-        android:layout_alignBottom="@+id/textView4"
-        android:layout_alignLeft="@+id/RightButton"
-        android:layout_alignStart="@+id/RightButton" />
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

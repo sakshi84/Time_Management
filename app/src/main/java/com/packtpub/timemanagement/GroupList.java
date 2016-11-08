@@ -26,7 +26,7 @@ public class GroupList extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        adapter = new Adapter();
+        adapter = new Adapter_gl();
         recyclerView.setAdapter(adapter);
     }
 

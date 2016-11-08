@@ -5,14 +5,13 @@ import android.view.LayoutInflater;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
  * Created by sakshi on 8/11/16.
  */
 
-public class Adapter  extends RecyclerView.Adapter<Adapter.ViewHolder> {
+public class Adapter_n extends RecyclerView.Adapter<Adapter_n.ViewHolder> {
 
     private String[] titles = {"Software Engineering",
             "Theory Of Computation",
@@ -23,10 +22,10 @@ public class Adapter  extends RecyclerView.Adapter<Adapter.ViewHolder> {
             "Artificial Intelligence",
     };
 
-    private String[] details = {"Item one details",
-            "Item two details", "Item three details",
-            "Item four details", "Item file details",
-            "Item six details", "Item seven details",
+    private String[] details = {"Quiz on this Tuesday ",
+            "Extra class from 10am - 11am 7/11/2016 ", "No class on Monday 7/11/2016",
+            "Bring your laptops in today's class ", "Mid term Answer sheets will be shown on Monday 7/11/2016",
+            "Assignment Summation Last date 20/11/2016", "Today's class in LT-4",
     };
     /*
     private int[] images = {

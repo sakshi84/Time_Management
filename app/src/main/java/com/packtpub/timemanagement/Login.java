@@ -31,11 +31,11 @@ public class Login extends Activity {
 
     }
     public void register(){
-        i2 = new Intent(this,Register.class);
+        i2 = new Intent(this,EventList.class);
         startActivity(i2);
     }
     public void login(){
-       i1 = new Intent(getApplicationContext(),Navigation.class);
+       i1 = new Intent(this,Notification.class);
        startActivity(i1);
    }
 }

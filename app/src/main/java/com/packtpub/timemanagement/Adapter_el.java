@@ -13,13 +13,19 @@ import android.widget.TextView;
 
 public class Adapter_el extends RecyclerView.Adapter<Adapter_el.ViewHolder> {
 
-    private String[] titles = {"1-2",
-            "2-3",
-            "3-4",
-            "4-5",
-            "5-6",
+    private String[] titles = {
+            "9am-12pm   OS Lab",
+            "12pm-1pm   Lunch",
+            "1pm-2pm    Theory Of Computation ",
+            "2pm-3pm    Software Engineering",
+            "3pm-4pm    Operating System",
+            "4pm-5pm    Principle of Programing Language",
+            "5pm-6pm    Optimization",
+            "7pm-8pm    French",
+            "8pm-9pm    Dinner",
+            "Till 12am   SWE Sprint 3",
     };
-
+/*
     private String[] details = {"Software Engineering",
             "Theory Of Computation",
             "Operating System",
@@ -27,7 +33,7 @@ public class Adapter_el extends RecyclerView.Adapter<Adapter_el.ViewHolder> {
             "Optimization",
     };
 
-    /*
+
     private int[] images = {
             R.drawable.android_image_1,
             R.drawable.android_image_2,
@@ -77,7 +83,7 @@ public class Adapter_el extends RecyclerView.Adapter<Adapter_el.ViewHolder> {
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, int i) {
         viewHolder.itemTitle.setText(titles[i]);
-        viewHolder.itemDetail.setText(details[i]);
+        //viewHolder.itemDetail.setText(details[i]);
         //viewHolder.itemImage.setImageResource(images[i]);
     }
 

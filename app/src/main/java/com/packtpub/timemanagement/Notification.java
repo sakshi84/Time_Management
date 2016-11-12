@@ -16,12 +16,11 @@ public class Notification extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_notification);
         // Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         // setSupportActionBar(toolbar);
 
-        recyclerView =
-                (RecyclerView) findViewById(R.id.recycler_view);
+        recyclerView =(RecyclerView) findViewById(R.id.recycler_view);
 
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);

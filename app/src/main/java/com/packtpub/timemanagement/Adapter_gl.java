@@ -20,6 +20,9 @@ public class Adapter_gl extends RecyclerView.Adapter<Adapter_gl.ViewHolder> {
             "Optimization",
             "French",
             "Artificial Intelligence",
+            "Macro Economics",
+            "Nano Technology",
+            "INSE",
     };
     /*
     private String[] details = {"Item one details",

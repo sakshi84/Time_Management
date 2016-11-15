@@ -35,7 +35,7 @@ public class Login extends Activity {
         startActivity(i2);
     }
     public void login(){
-       i1 = new Intent(this,Navigation.class);
+       i1 = new Intent(this,Notification.class);
        startActivity(i1);
    }
 }

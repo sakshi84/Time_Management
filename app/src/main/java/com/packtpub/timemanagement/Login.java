@@ -20,6 +20,7 @@ public class Login extends Activity {
                     @Override
                     public void onClick(View v) {
                         login();
+
                     }
                 });
         btnRegister.setOnClickListener(new View.OnClickListener() {
@@ -35,7 +36,7 @@ public class Login extends Activity {
         startActivity(i2);
     }
     public void login(){
-       i1 = new Intent(this,Navigation.class);
+       i1 = new Intent(this,EventList.class);
        startActivity(i1);
    }
 }

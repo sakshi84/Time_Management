@@ -11,17 +11,16 @@
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string-array name="planets">
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string-array name="GroupList">
         <item>Group 1</item>
         <item>Group 2</item>
         <item>Group 3</item>
         <item>Group 4</item>
-        <item>Group 5</item>
-        <item>Group 6</item>
-        <item>Group 7</item>
-        <item>Group 8</item>
+        <item>Notification</item>
+        <item>EventList</item>
+        <item>Settings</item>
     </string-array>
     <string name="action_example">Example action</string>
 </resources>

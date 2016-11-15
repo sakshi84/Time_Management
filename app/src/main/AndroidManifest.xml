@@ -43,8 +43,16 @@
         <activity
             android:name=".EventList"
             android:label="@string/title_activity_event_list" />
-        <activity android:name=".Settings"
-                  android:label="Settings"/>
+        <activity
+            android:name=".Settings"
+            android:label="@string/action_settings" />
+        <activity
+            android:name=".AddGroup"
+            android:label="Join Group"></activity>
+        <activity
+            android:name=".CreateGroup"
+            android:label="@string/title_activity_create_group"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

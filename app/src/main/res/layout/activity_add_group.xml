@@ -19,7 +19,8 @@
         android:text="Create New group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button4"
+        android:onClick="createGroup"
+        android:id="@+id/createGroup"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="34dp" />
 

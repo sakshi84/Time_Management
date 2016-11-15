@@ -23,7 +23,7 @@ public class EventList extends AppCompatActivity implements AdapterView.OnItemCl
     public ActionBarDrawerToggle mDrawerToggle;
     public CharSequence mDrawerTitle;
     private CharSequence mTitle;
-    Intent i,i1,i2;
+    Intent i,i1,i2,i3;
     RecyclerView recyclerView;
     RecyclerView.LayoutManager layoutManager;
     RecyclerView.Adapter adapter;
@@ -98,6 +98,10 @@ public class EventList extends AppCompatActivity implements AdapterView.OnItemCl
         if(mGroupList[position].equals("Settings")){
             i1 = new Intent(this,Settings.class);
             startActivity(i1);
+        }
+        if(mGroupList[position].equals("Join Group")){
+            i3 = new Intent(this,AddGroup.class);
+            startActivity(i3);
         }
 
         if(mGroupList[position].equals("GroupList")){

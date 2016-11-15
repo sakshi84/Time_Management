@@ -14,8 +14,10 @@
     <string name="drawer_close">Close navigation drawer</string>
     <string-array name="GroupList">
         <item>GroupList</item>
+        <item>Join Group</item>
         <item>Notification</item>
         <item>Settings</item>
     </string-array>
     <string name="action_example">Example action</string>
+    <string name="title_activity_create_group">CreateGroup</string>
 </resources>

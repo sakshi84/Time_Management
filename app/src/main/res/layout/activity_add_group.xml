@@ -13,18 +13,14 @@
         android:layout_marginLeft="30dp"
         android:hint="Enter Group ID"
         android:layout_marginTop="60dp"/>
-    <EditText android:id="@+id/groupName"
-        android:layout_width="230dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="30dp"
-        android:hint="Enter Group Name"
-        />
+
     <Button
         android:text="JOIN GROUP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
-        android:layout_marginLeft="100dp" />
+        />
 </LinearLayout>
 </RelativeLayout>

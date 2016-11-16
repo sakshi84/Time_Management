@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        app:srcCompat="@drawable/groupphoto"
+        app:srcCompat="@drawable/group_photo"
         android:id="@+id/imageView4"
         android:layout_marginTop="13dp"
         android:layout_marginLeft="100dp"/>
@@ -36,7 +36,7 @@
         android:layout_marginLeft="60dp"/>
 
     <EditText
-        android:hint="GROUP ID"
+        android:hint="DOMAIN ID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"

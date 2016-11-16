@@ -9,16 +9,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="USER NAME"
-        android:ems="10"
-        android:id="@+id/editText6"
-        android:layout_weight="1"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
+        android:text="7866278389"
         android:gravity="center"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="72dp"
-        android:layout_marginStart="72dp" />
+        android:ems="10"
+        android:id="@+id/editText9"
+        android:layout_below="@+id/editText8"
+        android:layout_alignLeft="@+id/editText8"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_marginTop="12dp" />
 
     <ImageView
         android:layout_width="150dp"
@@ -26,20 +24,21 @@
         app:srcCompat="@mipmap/user"
         android:id="@+id/imageView3"
         android:layout_weight="1"
-        android:layout_below="@+id/editText6"
+        android:layout_marginTop="26dp"
         android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="STUDENT"
-        android:gravity="center"
+        android:text="VASUNDHARA"
         android:ems="10"
+        android:id="@+id/editText6"
+        android:layout_weight="1"
+        android:gravity="center"
         android:layout_below="@+id/imageView3"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
-        android:id="@+id/editText7" />
+        android:layout_marginTop="26dp" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -48,22 +47,22 @@
         android:text="PRE-FINAL YEAR"
         android:gravity="center"
         android:ems="10"
-        android:layout_marginTop="16dp"
-        android:id="@+id/editText8"
-        android:layout_below="@+id/editText7"
-        android:layout_alignLeft="@+id/editText7"
-        android:layout_alignStart="@+id/editText7" />
+        android:id="@+id/editText7"
+        android:layout_below="@+id/editText6"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_marginTop="15dp" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="STATUS"
         android:gravity="center"
         android:ems="10"
-        android:layout_below="@+id/editText8"
-        android:layout_alignLeft="@+id/editText8"
-        android:layout_alignStart="@+id/editText8"
-        android:layout_marginTop="34dp"
-        android:id="@+id/editText9" />
+        android:id="@+id/editText8"
+        android:text="vasu@gmail.com"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/editText7"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_alignStart="@+id/editText7" />
 </RelativeLayout>

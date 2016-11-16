@@ -24,13 +24,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/editText1"
-            android:hint="Enter Name"
             android:focusable="true"
             android:textColorHint="@color/abc_tint_btn_checkable"
             android:layout_marginTop="46dp"
             android:textColorHighlight="@color/abc_tint_btn_checkable"
             android:textColor="@color/abc_tint_btn_checkable"
-            android:text="Username"
+            android:hint="Username"
             android:drawableLeft="@mipmap/user"
             />
 

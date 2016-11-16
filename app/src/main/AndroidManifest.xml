@@ -48,11 +48,12 @@
             android:label="@string/action_settings" />
         <activity
             android:name=".AddGroup"
-            android:label="Join Group"></activity>
+            android:label="@string/title_activity_join_group" />
         <activity
             android:name=".CreateGroup"
-            android:label="@string/title_activity_create_group"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="@string/title_activity_create_group" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".UserProfile"></activity>
     </application>
 
 </manifest>

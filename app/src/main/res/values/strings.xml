@@ -5,6 +5,8 @@
     <string name="title_activity_login">Login</string>
     <string name="title_activity_event_list">EventList</string>
     <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_join_group">Join Group</string>
+    <string name="title_activity_create_group">Create Group</string>
 
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
@@ -20,5 +22,4 @@
         <item>Settings</item>
     </string-array>
     <string name="action_example">Example action</string>
-    <string name="title_activity_create_group">CreateGroup</string>
 </resources>

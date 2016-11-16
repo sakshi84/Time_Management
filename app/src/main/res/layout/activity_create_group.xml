@@ -4,54 +4,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/header_img">
-
-
-    <TextView
-        android:text="GROUP NAME"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:layout_marginLeft="34dp"
-        android:layout_marginStart="34dp"
-        android:id="@+id/textView6"
-        android:layout_above="@+id/textView7"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="45dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
         app:srcCompat="@drawable/groupphoto"
         android:id="@+id/imageView4"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp" />
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="100dp"/>
 
-    <Button
-        android:text="CREATE CODE"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/button5"
-        android:layout_marginLeft="72dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginBottom="97dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/textView6"
-        android:layout_alignStart="@+id/textView6" />
-
-    <TextView
-        android:text="DESCRIPTION "
+    <EditText
+        android:hint="GROUP NAME"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:id="@+id/textView7"
-        android:layout_marginBottom="41dp"
-        android:layout_above="@+id/button5"
-        android:layout_alignRight="@+id/textView6"
-        android:layout_alignEnd="@+id/textView6" />
+        android:ems="10"
+        android:id="@+id/textView6"
+        android:layout_marginLeft="60dp"/>
 
     <EditText
+        android:hint="DESCRIPTION "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:ems="10"
+        android:id="@+id/textView7"
+        android:layout_marginLeft="60dp"/>
+
+    <EditText
+        android:hint="GROUP ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp"
+        android:id="@+id/textView8"
+        android:layout_marginLeft="60dp"/>
+
+    <Button
+        android:text="SUBMIT"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_marginLeft="80dp"/>
+
+
+    <!--<EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
@@ -60,5 +61,7 @@
         android:gravity="center"
         android:id="@+id/editText5"
         android:layout_below="@+id/imageView4"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true" />-->
+</LinearLayout>
+
 </RelativeLayout>

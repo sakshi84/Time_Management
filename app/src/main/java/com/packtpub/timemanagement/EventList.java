@@ -99,6 +99,10 @@ public class EventList extends AppCompatActivity implements AdapterView.OnItemCl
             i1 = new Intent(this,Settings.class);
             startActivity(i1);
         }
+        if(mGroupList[position].equals("Create Group")){
+            i1 = new Intent(this,CreateGroup.class);
+            startActivity(i1);
+        }
         if(mGroupList[position].equals("Join Group")){
             i3 = new Intent(this,AddGroup.class);
             startActivity(i3);

@@ -34,6 +34,9 @@
         <activity
             android:name=".Notification"
             android:label="@string/title_activity_notification" />
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_notification" />
 
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for

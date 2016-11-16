@@ -23,12 +23,13 @@ public class Adapter_CU extends RecyclerView.Adapter<Adapter_CU.ViewHolder> {
             "Vasundhara Sharma",
     };
 
-    private String[] details = {"Software Engineering",
-            "Theory Of Computation",
-            "Operating System",
-            "Principle of Programing Language",
-            "Optimization",
-            "hjhgv",
+    private String[] details = {
+            "bansalpunitib@gmail.com",
+            "kshitiz7gupta@gmail.com ",
+            "rkapoor414@gmail.com",
+            "sakshi84raj@gmail.com",
+            "sanyamjain838@gmail.com ",
+            "vasusweety.81@gmail.com",
     };
 
 
